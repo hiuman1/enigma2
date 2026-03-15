@@ -2,8 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-03-20 19:48+0100\n"
+"PO-Revision-Date: 2026-03-15 20:00+0100\n"
 "Last-Translator: HIUMAN <hiuman11@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -75,6 +74,12 @@ msgstr " wejście konwertera unicable obrotnicy"
 msgid "%H:%M"
 msgstr "%H:%M"
 
+msgid "%d Min"
+msgid_plural "%d Mins"
+msgstr[0] "%d Min"
+msgstr[1] "%d Min"
+msgstr[2] "%d Min"
+
 msgid "%d channel found"
 msgid_plural "%d channels found"
 msgstr[0] "%d znaleziony kanał"
@@ -95,12 +100,6 @@ msgstr[2] "%d zadań jest wykonywanych w tle!"
 
 msgid "%d min"
 msgstr "%d min"
-
-msgid "%d Min"
-msgid_plural "%d Mins"
-msgstr[0] "%d Min"
-msgstr[1] "%d Min"
-msgstr[2] "%d Min"
 
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -128,30 +127,6 @@ msgid_plural "%d wireless networks found!"
 msgstr[0] "Znaleziono %d sieć bezprzewodową!"
 msgstr[1] "Znaleziono %d sieci bezprzewodowe!"
 msgstr[2] "Znaleziono %d sieci bezprzewodowych!"
-
-msgid "%s - Setup"
-msgstr "%s - Ustawienia"
-
-msgid "%s GHz"
-msgstr "%s GHz"
-
-msgid "%s Information"
-msgstr "%s Info"
-
-msgid "%s Information Actions"
-msgstr "%s Akcje informacji"
-
-msgid "%s KSymb/s"
-msgstr "%s KSymb/s"
-
-msgid "%s MHz"
-msgstr "%s MHz"
-
-msgid "%s Setup"
-msgstr "%s Ustawienia"
-
-msgid "%s View"
-msgstr "%s Widok"
 
 msgid "%s is no longer used. Should it be deleted?"
 msgstr "%s nie jest już używany. Usunąć?"
@@ -186,9 +161,6 @@ msgstr "-BRAK KANAŁU\n"
 msgid "-SERVICE ERROR:%d\n"
 msgstr "-BŁĄD KANAŁU:%d\n"
 
-msgid "1st Infobar timeout"
-msgstr "Pierwszy limit czasu paska informacyjnego"
-
 msgid "12V output"
 msgstr "Wyjście 12V"
 
@@ -204,20 +176,14 @@ msgstr "16:10 PanScan"
 msgid "16:9 Letterbox"
 msgstr "16:9 Letterbox"
 
-msgid "16:9 always"
-msgstr "16:9 zawsze"
-
 msgid "18 V"
 msgstr "18 V"
 
+msgid "1st Infobar timeout"
+msgstr "Pierwszy limit czasu paska informacyjnego"
+
 msgid "3"
 msgstr "3"
-
-msgid "3D Mode"
-msgstr "Tryb 3D"
-
-msgid "3D Setup"
-msgstr "Konfiguracja 3D"
 
 msgid "3D surround speaker position"
 msgstr "Pozycja głośników 3D surround"
@@ -261,9 +227,6 @@ msgstr "=BRAK STRUMIENIA\n"
 msgid "A"
 msgstr "A"
 
-msgid "A background update check is in progress, please wait for retry."
-msgstr "Trwa sprawdzanie aktualizacji w tle. Poczekaj na ponowną próbę."
-
 msgid "A backup has been detected."
 msgstr "Wykryto kopię zapasową."
 
@@ -273,44 +236,6 @@ msgid ""
 msgstr ""
 "Nagranie zostało uruchomione:\n"
 "%s"
-
-msgid ""
-"A recording is currently running.\n"
-"What do you want to do?"
-msgstr ""
-"Nagrywanie w toku...\n"
-"Co chcesz zrobić?"
-
-msgid ""
-"A recording is currently running. Please stop the recording before trying to "
-"configure the positioner."
-msgstr ""
-"Nagrywanie w toku. Zakończ nagrywanie przed rozpoczęciem ustawiania "
-"pozycjonera."
-
-msgid ""
-"A recording is currently running. Please stop the recording before trying to "
-"scan."
-msgstr "Trwa nagrywanie. Zatrzymaj nagrywanie zanim rozpoczniesz skanowanie."
-
-msgid ""
-"A recording is currently running. Please stop the recording before trying to "
-"start the satellite finder."
-msgstr ""
-"Nagrywanie w toku. Zatrzymaj nagrywanie przed uruchomieniem miernika sygnału."
-
-msgid ""
-"A recording, recording timer or power timer is running or will begin within "
-"15 minutes. %s extended to 30 minutes. Your %s %s will go to Deep Standby "
-"after the recording or power timer event.\n"
-"\n"
-"Go to Deep Standby now?"
-msgstr ""
-"Nagranie, timer nagrywania lub timer zasilania trwa lub rozpocznie się w "
-"ciągu 15 minut. %s przedłużony do 30 minut. Urządzenie %s %s zostanie "
-"wyłączone po zakończeniu zadania.\n"
-"\n"
-"Czy chcesz wyłączyć odbiornik teraz?"
 
 msgid "A required tool (%s) was not found."
 msgstr "Narzędzie (%s) nie zostało znalezione."
@@ -361,12 +286,6 @@ msgstr "Odbiornik / System"
 msgid "Activate"
 msgstr "Aktywuj"
 
-msgid "Active"
-msgstr "Aktywny"
-
-msgid "Active:"
-msgstr "Aktywny:"
-
 msgid "Activate Picture in Picture"
 msgstr "Włącz PiP"
 
@@ -379,11 +298,17 @@ msgstr "Aktywuj ustawienia skonfigurowanej sieci."
 msgid "Activate timeshift end and pause"
 msgstr "Pauzuj timeshift"
 
+msgid "Active"
+msgstr "Aktywny"
+
 msgid "Adapter settings"
 msgstr "Ustawienia adaptera"
 
 msgid "Add"
 msgstr "Dodaj"
+
+msgid "Add Extra USB slots"
+msgstr "Dodaj gniazda USB"
 
 msgid "Add a mark"
 msgstr "Dodaj znacznik"
@@ -408,9 +333,6 @@ msgstr "Dodaj bukiet do kontroli rodzicielskiej"
 
 msgid "Add directory to playlist"
 msgstr "Dodaj katalog do playlisty"
-
-msgid "Add Extra USB slots"
-msgstr "Dodaj gniazda USB"
 
 msgid "Add file to playlist"
 msgstr "Dodaj plik do playlisty"
@@ -438,9 +360,6 @@ msgstr "Nagrywaj (zatrzymaj po aktualnym wydarzeniu)"
 
 msgid "Add service"
 msgstr "Dodaj kanał"
-
-msgid "Add service to bouquet"
-msgstr "Dodaj kanał do bukietu"
 
 msgid "Add service to favourites"
 msgstr "Dodaj kanał do ulubionych"
@@ -570,36 +489,6 @@ msgstr "Zezwalaj na napisy dla niesłyszących"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Pozwala używać pilota od TV do sterowania odbiornikiem."
 
-msgid "Allows the softcam manager to be launched from extensions."
-msgstr "Umożliwia uruchomienie menedżera oprogramowania Softcam z rozszerzeń."
-
-msgid ""
-"Allows the softcam to be checked if it stopped working, and restarted "
-"automatically if needed."
-msgstr ""
-"Umożliwia sprawdzenie, czy Softcam przestał działać, i ponowne uruchomienie "
-"automatycznie, jeśli zajdzie taka potrzeba."
-
-msgid "Allows unstable (experimental) updates"
-msgstr "Umożliwia niestabilne (eksperymentalne) aktualizacje"
-
-msgid "Allows you have the window close automatically."
-msgstr "Umożliwia automatyczne zamknięcie okna."
-
-msgid "Allows you schedule your backups."
-msgstr "Umożliwia planowanie tworzenia kopii zapasowych."
-
-msgid "Allows you schedule your image backups."
-msgstr "Umożliwia planowanie tworzenia kopii zapasowych obrazów."
-
-msgid "Allows you to tag your backups to a box. (default is box name/type)"
-msgstr "Umożliwia oznaczanie kopii zapasowych w skrzynce. (domyślnie jest to nazwa/typ skrzynki)"
-
-msgid ""
-"Allows you to tag your image backup to a box. (default is box name/type)"
-msgstr ""
-"Umożliwia oznaczenie kopii zapasowej obrazu w skrzynce. (domyślnie jest to nazwa/typ skrzynki)"
-
 msgid "Alpha"
 msgstr "Przezroczystość"
 
@@ -651,9 +540,6 @@ msgstr "Każda aktywność"
 msgid "Arabic"
 msgstr "Arabski"
 
-msgid "Are you ready to create a backup image ?"
-msgstr "Czy jesteś gotowy, aby utworzyć obraz zapasowy?"
-
 msgid "Are you ready to install ?"
 msgstr "Czy jesteś gotowy do instalacji?"
 
@@ -667,16 +553,6 @@ msgstr ""
 "Czy chcesz aktywować konfigurację sieci?\n"
 "\n"
 
-msgid ""
-"Are you sure you want to delete this backup:\n"
-msgstr ""
-"Czy na pewno chcesz usunąć tę kopię zapasową:\n"
-
-msgid ""
-"Are you sure you want to download this image:\n"
-msgstr ""
-"Czy na pewno chcesz pobrać ten obraz:\n"
-
 msgid "Are you sure you want to exit this wizard?"
 msgstr "Jesteś pewien, że chcesz wyjść?"
 
@@ -686,16 +562,6 @@ msgid ""
 msgstr ""
 "Chcesz zrestartować interfejs sieciowy?\n"
 "\n"
-
-msgid ""
-"Are you sure you want to restore this backup:\n"
-msgstr ""
-"Czy na pewno chcesz przywrócić tę kopię zapasową:\n"
-
-msgid ""
-"Are you sure you want to restore this image:\n"
-msgstr ""
-"Czy na pewno chcesz przywrócić ten obraz:\n"
 
 msgid "Argentina"
 msgstr "Argentyna"
@@ -708,9 +574,6 @@ msgstr "Kultura/Sztuka (bez muzyki)"
 
 msgid "Ask user"
 msgstr "Zapytaj użytkownika"
-
-msgid "Ask user (with default as'yes')"
-msgstr "Zapytaj użytkownika (domyślnie „tak”)"
 
 msgid "Assigned CAIds:"
 msgstr "Przyporządkowane CAIDy:"
@@ -757,14 +620,11 @@ msgstr "Auto"
 msgid "Auto Detect"
 msgstr "Auto wykrywanie"
 
-msgid "Auto language settings"
-msgstr "Automatyczne ustawienia języka"
+msgid "Auto EXIF Orientation rotation/flipping"
+msgstr "Automatyczny obrót/zmiana orientacji EXIF"
 
 msgid "Auto Volume Level"
 msgstr "Automatyczny poziom głośności"
-
-msgid "Auto EXIF Orientation rotation/flipping"
-msgstr "Automatyczny obrót/zmiana orientacji EXIF"
 
 msgid "Auto chapter split every ? minutes (0=never)"
 msgstr "Automatyczny podział rozdziałów co ? minuty (0=nigdy)"
@@ -775,6 +635,9 @@ msgstr "Auto flesh"
 msgid "Auto focus"
 msgstr "Auto wyostrzanie"
 
+msgid "Auto language settings"
+msgstr "Automatyczne ustawienia języka"
+
 msgid "Auto play blu-ray file"
 msgstr "Automatycznie odtwarzaj plik blu-ray"
 
@@ -784,17 +647,14 @@ msgstr "Automatyczne przełączanie scart"
 msgid "Automatic Language"
 msgstr "Preferowana Ścieżka Audio"
 
+msgid "Automatic Scan"
+msgstr "Skanowanie automatyczne"
+
 msgid "Automatic image backup"
 msgstr "Automatyczna kopia zapasowa obrazu"
 
 msgid "Automatic reload"
 msgstr "Automatyczne przeładowanie"
-
-msgid "Automatic resolution"
-msgstr "Automatyczna rozdzielczość"
-
-msgid "Automatic Scan"
-msgstr "Skanowanie automatyczne"
 
 msgid "Automatic save"
 msgstr "Automatyczne zapisywanie"
@@ -839,8 +699,14 @@ msgstr "BER:"
 msgid "Back"
 msgstr "Powrót"
 
-msgid "Backing up eMMC partitions for USB flash..."
-msgstr "Tworzenie kopii zapasowych partycji eMMC dla pamięci flash USB..."
+msgid "Background"
+msgstr "Tło"
+
+msgid "Background check"
+msgstr "Sprawdzenie tła"
+
+msgid "Background color"
+msgstr "Kolor tła"
 
 msgid "Backing up files..."
 msgstr "Tworzenie kopii zapasowych plików..."
@@ -851,52 +717,8 @@ msgstr "Tworzenie kopii zapasowej jądra..."
 msgid "Backing up root file system..."
 msgstr "Tworzenie kopii zapasowej głównego systemu plików..."
 
-msgid "Background"
-msgstr "Tło"
-
-msgid "Background check"
-msgstr "Sprawdzenie tła"
-
-msgid "Background color"
-msgstr "Kolor tła"
-
 msgid "Backup & Image Manager"
 msgstr "Backup & Menedżer Instalacji"
-
-msgid "Backup Complete..."
-msgstr "Kopia zapasowa ukończona..."
-
-msgid "Backup Confirmation"
-msgstr "Potwierdzenie kopii zapasowej"
-
-msgid "Backup Created"
-msgstr "Utworzono kopię zapasową"
-
-msgid "Backup Location"
-msgstr "Lokalizacja kopii zapasowej"
-
-msgid "Backup Manager"
-msgstr "Menadżer kopii bezpieczeństwa"
-
-msgid "Backup Manager Log"
-msgstr "Dziennik menedżera kopii zapasowych"
-
-msgid "Backup Manager Setup"
-msgstr "Konfiguracja Menedżera kopii zapasowych"
-
-msgid ""
-"Backup failed - e. g. wrong backup destination or no space left on backup "
-"device"
-msgstr ""
-"Tworzenie kopii zapasowej nie powiodło się – np. G. nieprawidłowe miejsce docelowe kopii zapasowej lub brak miejsca na kopię zapasową "
-"urządzenie"
-
-msgid ""
-"Backup in progress,\n"
-"Please wait for it to finish, before trying again"
-msgstr ""
-"Tworzenie kopii zapasowej w toku,\n"
-"Zanim spróbujesz ponownie, poczekaj na zakończenie"
 
 msgid "Backup prefix"
 msgstr "Prefiks kopii zapasowej"
@@ -925,11 +747,11 @@ msgstr "Baskijski"
 msgid "Begin time"
 msgstr "Czas rozpoczęcia"
 
-msgid "Behavior of 0 key in PiP-mode"
-msgstr "Zachowanie klawisza 0 w trybie PiP"
-
 msgid "Behavior of 'pause' when paused"
 msgstr "Zachowanie „pauzy” po wstrzymaniu"
+
+msgid "Behavior of 0 key in PiP-mode"
+msgstr "Zachowanie klawisza 0 w trybie PiP"
 
 msgid "Behavior when a movie is started"
 msgstr "Zachowanie przy rozpoczęciu odtwarzania"
@@ -966,6 +788,9 @@ msgstr "Redukcja zakłóceń blokowych"
 
 msgid "Blue"
 msgstr "Niebieski"
+
+msgid "Blue long"
+msgstr "Niebieski długi"
 
 msgid "Bolivia (Plurinational State of)"
 msgstr "Boliwia"
@@ -1121,16 +946,6 @@ msgstr "Kaskadowy PiP"
 msgid "Cayman Islands"
 msgstr "Kajmany"
 
-msgid "CCcam can't run whilst MGcamd is running"
-msgstr "CCcam nie może działać, gdy działa MGcamd"
-
-msgid ""
-"Can't unmount partition, make sure it is not being used for swap or record/"
-"timeshift paths"
-msgstr ""
-"Nie można odmontować partycji, upewnij się, że nie jest ona używana do wymiany lub nagrywania/"
-"ścieżki przesunięcia w czasie"
-
 msgid "Center DVB subtitles"
 msgstr "Wyśrodkuj napisy DVB"
 
@@ -1139,9 +954,6 @@ msgstr "Republika Środkowoafrykańska"
 
 msgid "Chad"
 msgstr "Czad"
-
-msgid "Change Location"
-msgstr "Zmień lokalizację"
 
 msgid "Change PIN"
 msgstr "Zmień PIN"
@@ -1161,13 +973,6 @@ msgstr "Zmienić ustawienia powtórzeń i opóźnienia?"
 msgid "Change step size"
 msgstr "Zmień rozmiar kroku"
 
-msgid ""
-"Changes need a system restart to take effect.\n"
-"Restart your %s %s now?"
-msgstr ""
-"Zmiany wymagają ponownego uruchomienia systemu, aby zaczęły obowiązywać.\n"
-"Zrestartować teraz %s %s?"
-
 msgid "Channel"
 msgstr "Kanał"
 
@@ -1176,9 +981,6 @@ msgstr "Tryb przycisku kanału +/-"
 
 msgid "Channel Selection"
 msgstr "Wybór kanałów"
-
-msgid "Channel list"
-msgstr "Listy kanałów"
 
 msgid "Channel list on mode change"
 msgstr "Lista kanałów po zmianie trybu"
@@ -1195,14 +997,14 @@ msgstr "Typ listy kanałów"
 msgid "Channel not in services list"
 msgstr "Kanału nie ma na liście serwisów"
 
-msgid "Channel:"
-msgstr "Kanał:"
-
 msgid "Channel preview mode"
 msgstr "Tryb podglądu kanału"
 
 msgid "Channel selection"
 msgstr "Wybór programu"
+
+msgid "Channel:"
+msgstr "Kanał:"
 
 msgid "Channels"
 msgstr "Kanały"
@@ -1231,14 +1033,8 @@ msgstr "Sprawdź połączenie internetowe ponownie"
 msgid "Checking filesystem..."
 msgstr "Sprawdzanie systemu plików..."
 
-msgid "Checking Free RAM.."
-msgstr "Sprawdzanie wolnej pamięci RAM.."
-
 msgid "Checking free RAM.."
 msgstr "Sprawdzam wolną pamięć RAM.."
-
-msgid "Checking softcams..."
-msgstr "Sprawdzam softcam..."
 
 msgid "Checking the internet connection"
 msgstr "Sprawdzanie połączenia internetowego"
@@ -1256,14 +1052,8 @@ msgstr "Dzieci/Młodzież/Edukacja/Nauka"
 msgid "China"
 msgstr "Chiny"
 
-msgid "Choice days for start import"
-msgstr "Wybór dni rozpoczęcia importu"
-
-msgid "Choose Files"
-msgstr "Wybierz pliki"
-
-msgid "Choose local ipk's folder"
-msgstr "Wybierz lokalny folder ipk"
+msgid "Choose where to mount your devices to:"
+msgstr "Wybierz miejsce, w którym chcesz zamontować swoje urządzenia:"
 
 msgid ""
 "Choose whether to scan a single transponder, one satellite or multiple "
@@ -1278,9 +1068,6 @@ msgid ""
 msgstr ""
 "Wybierz, czy skanować tylko kanały FTA (darmowe), czy także kanały płatne/"
 "kodowane."
-
-msgid "Choose where to mount your devices to:"
-msgstr "Wybierz miejsce, w którym chcesz zamontować swoje urządzenia:"
 
 msgid "Choose which tuner to configure."
 msgstr "Wybierz tuner do skonfigurowania."
@@ -1297,6 +1084,9 @@ msgstr "Kołowa lewa"
 msgid "Circular right"
 msgstr "Kołowa prawa"
 
+msgid "Clean network trash cans"
+msgstr "Wyczyść kosze na śmieci w sieci"
+
 msgid "Cleanup"
 msgstr "Czyszczenie"
 
@@ -1311,9 +1101,6 @@ msgstr "Wyczyść log"
 
 msgid "Clear playlist"
 msgstr "Wyczyść playlistę"
-
-msgid "Clearing current EPG before import"
-msgstr "Czyszczenie bieżącego EPG przed importem"
 
 msgid "Clone TV screen to LCD"
 msgstr "Klonuj obraz z tv na LCD"
@@ -1405,15 +1192,6 @@ msgstr ""
 msgid "Configure an additional delay to improve subtitle synchronisation."
 msgstr "Ustaw dodatkowe opóźnienie, aby polepszyć synchronizację napisów."
 
-msgid ""
-"Configure for how many minutes finished events should remain visible in the "
-"EPG. Useful when you need information about an event which has just "
-"finished, or has been delayed."
-msgstr ""
-"Skonfiguruj przez ile minut zakończone audycje pozostaną widoczne w EPG. "
-"Przydatne, gdy potrzebujesz informacji o programie, który właśnie się "
-"zakończył lub opóźnił się."
-
 msgid "Configure how recording filenames are constructed."
 msgstr "Skonfiguruj jak mają wyglądać nazwy plików nagrań."
 
@@ -1448,11 +1226,6 @@ msgstr "Skonfiguruj zachowanie po zastopowaniu odtwarzania."
 
 msgid "Configure the behavior when movie playback is started."
 msgstr "Skonfiguruj zachowanie przy rozpoczęciu odtwarzania."
-
-msgid ""
-"Configure the behavior when reaching the end of a movie, during movie "
-"playback."
-msgstr "Skonfiguruj zachowanie gdy odtwarzanie filmu osiągnie koniec."
 
 msgid ""
 "Configure the border width of the subtitles. The dark border makes the "
@@ -1507,14 +1280,6 @@ msgstr "Skonfiguruj szerokość geograficzną dla swojej lokalizacji."
 
 msgid "Configure the longitude of your location."
 msgstr "Skonfiguruj długość geograficzną swojej lokalizacji."
-
-msgid ""
-"Configure the minimum amount of disk space to be available for recordings. "
-"When the amount of space drops below this value, deleted items will be "
-"removed from the trash can."
-msgstr ""
-"Określ minimalną przestrzeń dyskowej zarezerwowaną dla nagrań. W przypadku "
-"spadku poniżej tego progu, usunięte pliki zostaną wykasowane z kosza."
 
 msgid "Configure the nameserver (DNS)."
 msgstr "Skonfiguruj nameserver (DNS)."
@@ -1654,11 +1419,11 @@ msgstr "Podłączony do"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr "Aktywny transcoding, PiP niedostępny!"
 
-msgid "Constellation & FFT mode"
-msgstr "Konstelacja i tryb FFT"
-
 msgid "Constcw"
 msgstr "Constcw"
+
+msgid "Constellation & FFT mode"
+msgstr "Konstelacja i tryb FFT"
 
 msgid "Consult your SCR device spec sheet for this information."
 msgstr ""
@@ -1725,15 +1490,6 @@ msgstr "Przykryj przerywaną białą linię dla tego kanału"
 msgid "Create"
 msgstr "Tworzyć"
 
-msgid "Create and Manage your swapfiles."
-msgstr "Twórz i zarządzaj swoimi plikami wymiany."
-
-msgid "Create and Restore complete images of the system."
-msgstr "Twórz i przywracaj kompletne obrazy systemu."
-
-msgid "Creating Backup Files..."
-msgstr "Tworzenie plików kopii zapasowych..."
-
 msgid "Create DVD-ISO"
 msgstr "Utwórz DVD-ISO"
 
@@ -1743,20 +1499,14 @@ msgstr "Utwórz katalog"
 msgid "Create separate radio userbouquet"
 msgstr "Utwórz osobny bukiet radio"
 
+msgid "Creating SWAP.."
+msgstr "Tworzenie SWAP-u.."
+
 msgid "Creating directory %s failed."
 msgstr "Tworzenie katalogu %s nie powiodło się."
 
 msgid "Creating list of installed plugins..."
 msgstr "Tworzenie listy zainstalowanych wtyczek..."
-
-msgid "Creating SWAP"
-msgstr "Tworzenie SWAP-u"
-
-msgid "Creating SWAP.."
-msgstr "Tworzenie SWAP-u.."
-
-msgid "Creating Swap.."
-msgstr "Tworzenie wymiany.."
 
 msgid "Creating zip..."
 msgstr "Tworzenie zipa..."
@@ -1770,6 +1520,9 @@ msgstr "Chorwacki"
 msgid "Cuba"
 msgstr "Kuba"
 
+msgid "Current Status:"
+msgstr "Aktualny stan:"
+
 msgid "Current device: "
 msgstr "Bieżące urządzenie: "
 
@@ -1778,12 +1531,6 @@ msgstr "Aktualny tryb: %s \n"
 
 msgid "Current rotor position: "
 msgstr "Aktualna pozycja obrotnicy: "
-
-msgid "Current Status:"
-msgstr "Aktualny stan:"
-
-msgid "Current Status: "
-msgstr "Aktualne ustawienia: "
 
 msgid "Current settings:"
 msgstr "Aktualne ustawienia:"
@@ -1826,12 +1573,6 @@ msgstr "Czechy"
 
 msgid "DHCP"
 msgstr "DHCP"
-
-msgid "DMM advanced"
-msgstr "DMM zaawansowane"
-
-msgid "DMM normal"
-msgstr "DMM normalny"
 
 msgid "DUAL LAYER DVD"
 msgstr "DUAL LAYER DVD"
@@ -1877,9 +1618,6 @@ msgstr "Najpierw data"
 
 msgid "Deactivate"
 msgstr "Dezaktywować"
-
-msgid "Debug log time format*"
-msgstr "Format czasu dziennika debugowania*"
 
 msgid "Debug to file"
 msgstr "Debug do pliku"
@@ -1960,9 +1698,6 @@ msgstr "Opóźnienie pomiędzy komendami 'switch' i 'motor'"
 msgid "Delay for external subtitles"
 msgstr "Opóźnienie dla napisów zewnętrznych"
 
-msgid "Delay time"
-msgstr "Czas zwłoki"
-
 msgid "Delete"
 msgstr "Usuń"
 
@@ -1999,9 +1734,6 @@ msgstr "Usunięte pliki"
 msgid "Denmark"
 msgstr "Dania"
 
-msgid "Depth"
-msgstr "Głębia"
-
 msgid "Descramble receiving http streams"
 msgstr "Dekoduj odbierany strumienie http"
 
@@ -2017,26 +1749,17 @@ msgstr "Odznacz"
 msgid "Detect next boxes before standby"
 msgstr "Wykryj kolejne odbiorniki przed uśpieniem"
 
-msgid "Detected devices:"
-msgstr "Wykryte urządzenia:"
-
-msgid "Detected servers:"
-msgstr "Wykryte serwery:"
-
-msgid "Detected tuners:"
-msgstr "Wykryte tunery:"
-
 msgid "Device"
 msgstr "Urządzenie"
 
 msgid "Device: "
 msgstr "Urządzenie: "
 
-msgid "Devices Manager"
-msgstr "Menedżer urządzeń"
-
 msgid "Device: None available"
 msgstr "Urządzenie: Brak dostępnych"
+
+msgid "Devices Manager"
+msgstr "Menedżer urządzeń"
 
 msgid "DiSEqC"
 msgstr "DiSEqC"
@@ -2095,9 +1818,6 @@ msgstr "Wyłącz skanowanie w tle"
 msgid "Disable move mode"
 msgstr "Wyłącz tryb przenoszenia"
 
-msgid "Disable Startup"
-msgstr "Wyłącz uruchamianie"
-
 msgid "Disabled"
 msgstr "Wyłączone"
 
@@ -2152,20 +1872,6 @@ msgstr "Czy na pewno chcesz usunąć zakładkę %s?"
 msgid "Do you want to burn this collection to DVD medium?"
 msgstr "Czy chcesz nagrać tą kolekcję na DVD?"
 
-msgid ""
-"Do you want to create a full image backup?This can take about 6 minutes to "
-"complete."
-msgstr ""
-"Czy chcesz utworzyć kopię zapasową pełnego obrazu?Może to zająć około 6 "
-"minut."
-
-msgid ""
-"Do you want to flash image\n"
-"%s"
-msgstr ""
-"Czy chcesz zainstalować image\n"
-"%s"
-
 msgid "Do you want to play DVD in drive?"
 msgstr "Czy chcesz odtworzyć DVD znajdujące się w napędzie?"
 
@@ -2207,12 +1913,6 @@ msgstr "W dół"
 
 msgid "Download"
 msgstr "Pobierać"
-
-msgid "Download Confirmation"
-msgstr "Pobierz potwierdzenie"
-
-msgid "Downloading Image..."
-msgstr "Pobieranie obrazu..."
 
 msgid "Download plugins"
 msgstr "Pobierz wtyczki"
@@ -2313,17 +2013,11 @@ msgstr "Włącz 5V dla aktywnej anteny"
 msgid "Enable Bluetooth Audio"
 msgstr "Włącz dźwięk Bluetooth"
 
-msgid "Enable Bluetooth Audio delay"
-msgstr "Włącz opóźnienie dźwięku Bluetooth"
-
 msgid "Enable EIT EPG"
 msgstr "Włącz EIT EPG"
 
 msgid "Enable EPG event name abbreviation removal"
 msgstr "Włącz usuwanie skrótów nazw wydarzeń EPG"
-
-msgid "Enable EPG event name prefixes"
-msgstr "Włącz prefiksy nazw wydarzeń EPG"
 
 msgid "Enable FreeSat EPG"
 msgstr "Włącz EPG FreeSat"
@@ -2337,20 +2031,14 @@ msgstr "Włącz Netmed EPG"
 msgid "Enable OpenTV EPG"
 msgstr "Włącz OpenTV EPG"
 
-msgid "Enable Startup"
-msgstr "Włącz uruchamianie"
-
-msgid "Enable Swap at startup"
-msgstr "Włącz opcję Zamień przy uruchomieniu"
+msgid "Enable VOD skip buttons"
+msgstr "Włącz przyciski pomijania VOD"
 
 msgid "Enable ViaSat EPG"
 msgstr "Włącz Viasat EPG"
 
 msgid "Enable Virgin EPG"
 msgstr "Włącz Virgin EPG"
-
-msgid "Enable VOD skip buttons"
-msgstr "Włącz przyciski pomijania VOD"
 
 msgid "Enable auto cable scan"
 msgstr "Włącz automatyczny skan TV kablowej"
@@ -2361,23 +2049,17 @@ msgstr "Włącz automatyczny fastscan"
 msgid "Enable auto fastscan for %s"
 msgstr "Włącz automatyczny fastscan dla %s"
 
+msgid "Enable automatic collections"
+msgstr "Włącz automatyczne zbieranie danych"
+
 msgid "Enable blinking"
 msgstr "Włącz miganie"
 
 msgid "Enable bouquet edit"
 msgstr "Włącz edycję bukietu"
 
-msgid "Enable core dumps*"
-msgstr "Włącz zrzuty rdzenia*"
-
-msgid "Enable debug logs*"
-msgstr "Włącz dzienniki debugowania*"
-
 msgid "Enable fallback remote receiver"
 msgstr "Włącz opcję 'rezerwowego' zdalnego odbiornika"
-
-msgid "Enable frozen check"
-msgstr "Włącz kontrolę zamrożoną"
 
 msgid "Enable infobar fade-out"
 msgstr "Włącz zanikanie paska informacyjnego"
@@ -2548,9 +2230,6 @@ msgstr "Etiopia"
 msgid "Event font size"
 msgstr "Rozmiar czcionki zdarzenia"
 
-msgid "Event info"
-msgstr "Informacje o wydarzeniu"
-
 msgid "Event name first"
 msgstr "Nazwy zdarzeń najpierw"
 
@@ -2602,9 +2281,6 @@ msgstr "Opuść konfigurację sieci"
 msgid "Exit the restore wizard"
 msgstr "Wyjdź z kreatora przywracania"
 
-msgid "Extra IPK's"
-msgstr "Dodatkowe IPK"
-
 msgid "Exit the wizard"
 msgstr "Opuść kreatora"
 
@@ -2647,6 +2323,9 @@ msgstr "Przełączanie czcionek napisów zewnętrznych"
 msgid "Externally powered"
 msgstr "Zewnętrznie zasilany"
 
+msgid "Extra IPK's"
+msgstr "Dodatkowe IPK"
+
 msgid "Extra motor options"
 msgstr "Dodatkowe ustawienia obrotnicy"
 
@@ -2676,9 +2355,6 @@ msgid ""
 msgstr ""
 "FBC automatyczny\n"
 "nieaktywny"
-
-msgid "FCC  enabled"
-msgstr "Włączone FCC"
 
 msgid "Factory Reset"
 msgstr "Przywrócenie ustawień fabrycznych"
@@ -2761,14 +2437,14 @@ msgstr "Fiński"
 msgid "Fixed"
 msgstr "Stała"
 
+msgid "Font size"
+msgstr "Rozmiar czcionki"
+
 msgid "Force legacy signal stats"
 msgstr "Wymuś starszy typ statystyk sygnału"
 
 msgid "Format"
 msgstr "Format"
-
-msgid "Found none standard softcam, trying to start, this may fail"
-msgstr "Nie znaleziono standardowego softcam. Próba uruchomienia może się nie powieść"
 
 msgid "Forward volume keys"
 msgstr "Przekazuj klawisze głośności"
@@ -2827,9 +2503,6 @@ msgstr "Z:"
 msgid "Front Panel Display"
 msgstr "Ustawienia Wyświetlacza"
 
-msgid "Frozen check interval"
-msgstr "Zamrożony interwał kontroli"
-
 msgid "Full screen"
 msgstr "Tryb pełnoekranowy"
 
@@ -2848,6 +2521,9 @@ msgid ""
 msgstr ""
 "GUI musi zostać zrestartowane aby zastosować nowy język.\n"
 "Wykonać restart teraz?"
+
+msgid "GUI settings"
+msgstr "Ustawienia GUI"
 
 msgid "Gateway"
 msgstr "Brama"
@@ -2875,12 +2551,6 @@ msgstr "Niemcy"
 
 msgid "Getting plugin information. Please wait..."
 msgstr "Pobieranie info o wtyczkach. Proszę czekać..."
-
-msgid "Grid EPG"
-msgstr "Siatka EPG"
-
-msgid "Graphics Grid EPG"
-msgstr "Siatka graficzna EPG"
 
 msgid "Go down the list"
 msgstr "Przejdź w dół listy"
@@ -2924,6 +2594,9 @@ msgstr "Kalibracja GotoX"
 msgid "Graphics"
 msgstr "Grafika"
 
+msgid "Graphics Grid EPG"
+msgstr "Siatka graficzna EPG"
+
 msgid "Greece"
 msgstr "Grecja"
 
@@ -2939,8 +2612,8 @@ msgstr "Zielony długi"
 msgid "Greenland"
 msgstr "Grenlandia"
 
-msgid "GUI settings"
-msgstr "Ustawienia GUI"
+msgid "Grid EPG"
+msgstr "Siatka EPG"
 
 msgid "Guadeloupe"
 msgstr "Gwadelupa"
@@ -2960,14 +2633,8 @@ msgstr "Gwinea-Bissau"
 msgid "Guyana"
 msgstr "Gujana"
 
-msgid "HARD DISK: "
-msgstr "DYSK TWARDY: "
-
 msgid "HD list"
 msgstr "Lista HD"
-
-msgid "HDMI Colordepth"
-msgstr "Głębia kolorów HDMI"
 
 msgid "HDMI Colorimetry"
 msgstr "Kolorymetria HDMI"
@@ -3002,14 +2669,11 @@ msgstr "Pomaga ustawić antenę"
 msgid "Hidden network"
 msgstr "Ukryta sieć"
 
-msgid "Hide CI messages"
-msgstr "Ukryj wiadomości CI"
-
-msgid "Hide and confirm invalid key message"
-msgstr "Ukryj i potwierdź komunikat o nieprawidłowym kluczu"
-
 msgid "Hide"
 msgstr "Ukryj"
+
+msgid "Hide CI messages"
+msgstr "Ukryj wiadomości CI"
 
 msgid "Hide known extensions"
 msgstr "Ukryj znane rozszerzenia"
@@ -3032,11 +2696,11 @@ msgstr "Ukryj komunikaty błędów przy przełączaniu"
 msgid "Hierarchy info"
 msgstr "Informacje o hierarchii"
 
-msgid "Highlight current events"
-msgstr "Zaznacz bieżące wydarzenia"
-
 msgid "High bitrate support"
 msgstr "Obsługa wysokiego bitrate"
+
+msgid "Highlight current events"
+msgstr "Zaznacz bieżące wydarzenia"
 
 msgid "History back"
 msgstr "Poprzedni w historii"
@@ -3074,11 +2738,11 @@ msgstr "Węgry"
 msgid "IDLE"
 msgstr "BEZCZYNNY"
 
+msgid "INFO button action"
+msgstr "Działanie przycisku INFO"
+
 msgid "IP address"
 msgstr "Adres IP"
-
-msgid "IPK Installer"
-msgstr "Instalator IPK"
 
 msgid "ISO file is too large for this filesystem!"
 msgstr "Plik ISO jest za duży dla tego systemu plików!"
@@ -3177,18 +2841,15 @@ msgstr "Menedżer instalacji"
 msgid "Image manager"
 msgstr "Menedżer instalacji"
 
-msgid "Image Manager Setup"
-msgstr "Konfiguracja menedżera obrazów"
-
-msgid "Inactive"
-msgstr "Nieaktywny"
-
 msgid ""
 "In order to record a timer, the TV was switched to the recording service!\n"
 msgstr "Aby nagrywać z timera, TV został przełączony na nagrywany kanał!\n"
 
 msgid "In progress"
 msgstr "W toku"
+
+msgid "Inactive"
+msgstr "Nieaktywny"
 
 msgid "Include AIT in http streams"
 msgstr "AIT w streamie http"
@@ -3208,23 +2869,20 @@ msgstr "Zwiększone napięcie"
 msgid "Index allocated:"
 msgstr "Indeks przypisany:"
 
-msgid "INFO button action"
-msgstr "Działanie przycisku INFO"
-
-msgid "Info icon width"
-msgstr "Szerokość ikony informacji"
-
 msgid "India"
 msgstr "Indie"
 
 msgid "Indonesia"
 msgstr "Indonezja"
 
-msgid "Infobar EPG activation"
-msgstr "Aktywacja EPG paska informacyjnego"
-
 msgid "Info"
 msgstr "Info"
+
+msgid "Info icon width"
+msgstr "Szerokość ikony informacji"
+
+msgid "Infobar EPG activation"
+msgstr "Aktywacja EPG paska informacyjnego"
 
 msgid "Infobar Single EPG"
 msgstr "Pasek informacyjny Pojedynczy EPG"
@@ -3265,9 +2923,6 @@ msgstr "Inicjuj"
 msgid "Initialize Devices"
 msgstr "Inicjuj urządzenia"
 
-msgid "Initializing storage device..."
-msgstr "Inicjalizacja urządzenia..."
-
 msgid "Input"
 msgstr "Wejście"
 
@@ -3283,17 +2938,14 @@ msgstr "ID strumienia wejściowego"
 msgid "Install"
 msgstr "Instalacja"
 
-msgid "Install Confirmation"
-msgstr "Zainstaluj potwierdzenie"
+msgid "Install IPK's from your tmp folder."
+msgstr "Zainstaluj pakiety IPK z folderu tmp."
 
 msgid "Install channel list"
 msgstr "Zainstaluj listę kanałów"
 
 msgid "Install extensions."
 msgstr "Zainstaluj rozszerzenia."
-
-msgid "Install IPK's from your tmp folder."
-msgstr "Zainstaluj pakiety IPK z folderu tmp."
 
 msgid "Install local extension"
 msgstr "Instaluj lokalny pakiet"
@@ -3376,13 +3028,6 @@ msgstr "Włoski"
 msgid "Italy"
 msgstr "Włochy"
 
-msgid ""
-"It seems you have not setup a extra location, please setup in Backup Manager "
-"setup menu "
-msgstr ""
-"Wygląda na to, że nie skonfigurowałeś dodatkowej lokalizacji. Skonfiguruj ją w Menedżerze kopii zapasowych "
-"menu ustawień "
-
 msgid "Jamaica"
 msgstr "Jamajka"
 
@@ -3390,9 +3035,6 @@ msgid "Japan"
 msgstr "Japonia"
 
 msgid "Job View"
-msgstr "WIDOK PRACY"
-
-msgid "Job view"
 msgstr "WIDOK PRACY"
 
 msgid "Jordan"
@@ -3455,9 +3097,6 @@ msgstr "Połączenie LAN"
 msgid "LNB"
 msgstr "LNB"
 
-msgid "LOGS SETTINGS"
-msgstr "USTAWIENIA LOGÓW"
-
 msgid "Language"
 msgstr "Język"
 
@@ -3501,9 +3140,6 @@ msgstr "Lewy"
 
 msgid "Left long"
 msgstr "Lewy długi"
-
-msgid "Left from servicename (only availble in single line mode)"
-msgstr "Na lewo od nazwy usługi (dostępne tylko w trybie jednowierszowym)"
 
 msgid "Letterbox"
 msgstr "Letterbox"
@@ -3568,20 +3204,14 @@ msgstr "Litewski"
 msgid "Load"
 msgstr "Otwórz"
 
-msgid "Load EPG only for IPTV channels"
-msgstr "Załaduj EPG tylko dla kanałów IPTV"
-
-msgid "Load EPG only services in bouquets"
-msgstr "Załaduj w bukietach tylko usługi EPG"
-
-msgid "Load, Save & Delete EPG Cache"
-msgstr "Załaduj, zapisz i usuń pamięć podręczną EPG"
-
 msgid "Load playlist"
 msgstr "Załaduj playlistę"
 
 msgid "Load unlinked userbouquets"
 msgstr "Pokazuj niepodlinkowane bukiety"
+
+msgid "Load, Save & Delete EPG Cache"
+msgstr "Załaduj, zapisz i usuń pamięć podręczną EPG"
 
 msgid "Local network"
 msgstr "Sieć lokalna"
@@ -3595,20 +3225,17 @@ msgstr "Lokalizacja"
 msgid "Location of where backup should be saved."
 msgstr "Lokalizacja, w której powinna zostać zapisana kopia zapasowa."
 
-msgid "Location of where image backup should be saved."
-msgstr "Lokalizacja, w której powinna zostać zapisana kopia zapasowa obrazu."
-
 msgid "Logs folder location"
 msgstr "Lokalizacja folderu dzienników"
+
+msgid "Long Left/Right"
+msgstr "Długie w lewo/w prawo"
 
 msgid "Long filenames"
 msgstr "Długie nazwy plików"
 
 msgid "Long key press"
 msgstr "Długie naciśnięcie klawisza"
-
-msgid "Long Left/Right"
-msgstr "Długie w lewo/w prawo"
 
 msgid "Longitude"
 msgstr "Długość geogr"
@@ -3624,9 +3251,6 @@ msgstr "Luksemburg"
 
 msgid "Luxembourgish"
 msgstr "Luxemburski"
-
-msgid "MGcamd can't run whilst CCcam is running"
-msgstr "MGcamd nie może działać, gdy działa CCcam"
 
 msgid "Macao"
 msgstr "Makau"
@@ -3654,12 +3278,6 @@ msgstr "Malezja"
 
 msgid "Maldives"
 msgstr "Malediwy"
-
-msgid "Manage you devices mountpoints."
-msgstr "Zarządzaj punktami montowania urządzeń."
-
-msgid "Manage your backups of your settings."
-msgstr "Zarządzaj kopiami zapasowymi ustawień."
 
 msgid "Manual"
 msgstr "Ręcznie"
@@ -3758,18 +3376,6 @@ msgstr "Minimalny interwał wysyłania"
 msgid "Mins"
 msgstr "Min"
 
-msgid "Minute"
-msgstr "Minuta"
-
-msgid "Minutes"
-msgstr "Minuty"
-
-msgid "Minutes Seconds"
-msgstr "Minut Sekund"
-
-msgid "Minutes:"
-msgstr "Minuty:"
-
 msgid "Miscellaneous"
 msgstr "Priorytety Głowicy"
 
@@ -3823,12 +3429,6 @@ msgstr "Limit czasu pracy silnika"
 
 msgid "Mount"
 msgstr "Podmontuj"
-
-msgid "Mount Manager"
-msgstr "Menedżer montowania"
-
-msgid "Mount failed"
-msgstr "Montaż nie powiódł się"
 
 msgid "Mount: "
 msgstr "Montowanie: "
@@ -3929,6 +3529,12 @@ msgstr "Głowica i typ"
 msgid "NO"
 msgstr "Nie"
 
+msgid "NO, do not restore plugins"
+msgstr "NIE, nie przywracaj wtyczek"
+
+msgid "NO, do not restore settings"
+msgstr "NIE, nie przywracaj ustawień"
+
 msgid "Name"
 msgstr "Nazwa"
 
@@ -3971,17 +3577,11 @@ msgstr "Sieć:"
 msgid "New"
 msgstr "Nowe"
 
-msgid "New Backup"
-msgstr "Nowa kopia zapasowa"
-
 msgid "New Caledonia"
 msgstr "Nowa Kaledonia"
 
 msgid "New Zealand"
 msgstr "Nowa Zelandia"
-
-msgid "Next Backup: "
-msgstr "Następna kopia zapasowa: "
 
 msgid "News/Current Affairs/Social"
 msgstr "Wiadomości/Aktualności/Społeczne"
@@ -3991,12 +3591,6 @@ msgstr "Następna kopia zapasowa: "
 
 msgid "Nicaragua"
 msgstr "Nikaragua"
-
-msgid "NO, do not restore plugins"
-msgstr "NIE, nie przywracaj wtyczek"
-
-msgid "NO, do not restore settings"
-msgstr "NIE, nie przywracaj ustawień"
 
 msgid "No"
 msgstr "Nie"
@@ -4015,34 +3609,6 @@ msgstr "Nie znaleziono HDD lub dysk nie jest zainicjowany!"
 
 msgid "No age block"
 msgstr "Brak ograniczeń"
-
-msgid ""
-"No config files found, please setup CCcam first\n"
-"in /etc/CCcam.cfg"
-msgstr ""
-"Nie znaleziono plików konfiguracyjnych. Najpierw skonfiguruj CCcam\n"
-"w pliku /etc/CCcam.cfg"
-
-msgid ""
-"No config files found, please setup Hypercam first\n"
-"in /etc/hypercam.cfg"
-msgstr ""
-"Nie znaleziono plików konfiguracyjnych. Najpierw skonfiguruj Hypercam\n"
-"w pliku /etc/hypercam.cfg"
-
-msgid ""
-"No config files found, please setup MGcamd first\n"
-"in /var/keys"
-msgstr ""
-"Nie znaleziono plików konfiguracyjnych. Najpierw skonfiguruj MGcamd\n"
-"w /var/keys"
-
-msgid ""
-"No config files found, please setup Oscam first\n"
-"in /etc/tuxbox/config"
-msgstr ""
-"Nie znaleziono plików konfiguracyjnych. Najpierw skonfiguruj Oscam\n"
-"w /etc/tuxbox/config"
 
 msgid ""
 "No data on transponder!\n"
@@ -4073,9 +3639,6 @@ msgstr "Nie znaleziono obrazów"
 msgid "No networks found"
 msgstr "Nie znaleziono sieci"
 
-msgid "No plugins were needed to be installed"
-msgstr "Nie trzeba było instalować żadnych wtyczek"
-
 msgid "No priority"
 msgstr "Bez priorytetu"
 
@@ -4089,9 +3652,6 @@ msgstr "Brak kanału"
 
 msgid "No services/providers selected"
 msgstr "Brak wybranych kanałów/nadawców"
-
-msgid "Now skipping restore process"
-msgstr "Teraz pomijam proces przywracania"
 
 msgid "No standby"
 msgstr "Bez stanu czuwania"
@@ -4178,6 +3738,9 @@ msgstr ""
 
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "Nic do skanowania! Skonfiguruj głowicę i spróbuj ponownie."
+
+msgid "Now skipping restore process"
+msgstr "Teraz pomijam proces przywracania"
 
 msgid ""
 "Now, use the contrast setting to turn up the brightness of the background as "
@@ -4291,9 +3854,6 @@ msgstr "Zwykły"
 msgid "Original"
 msgstr "Oryginalny"
 
-msgid "Osd 3D setup"
-msgstr "Konfiguracja Osd 3D"
-
 msgid "Osd Position setup"
 msgstr "Konfiguracja pozycji Osd"
 
@@ -4399,14 +3959,11 @@ msgstr "Odtwarzaj"
 msgid "Play DVD"
 msgstr "Odtwórz DVD"
 
+msgid "Play audio in background"
+msgstr "Odtwarzaj dźwięk w tle"
+
 msgid "Play audio-CD..."
 msgstr "Odtwórz CD-Audio..."
-
-msgid "Playback"
-msgstr "Odtwarzanie"
-
-msgid "Playback media files"
-msgstr "Odtwarzanie plików multimedialnych"
 
 msgid "Play entry"
 msgstr "Odtwórz"
@@ -4431,6 +3988,9 @@ msgstr "Odtwarzaj kolejne...>| wróć do TV"
 
 msgid "Play previous"
 msgstr "Odtwórz poprzedni"
+
+msgid "Playback"
+msgstr "Odtwarzanie"
 
 msgid "Please add titles to the compilation."
 msgstr "Dodaj tytuły do kompilacji."
@@ -4459,14 +4019,8 @@ msgstr ""
 msgid "Please connect your receiver to the internet"
 msgstr "Podłącz odbiornik do internetu"
 
-msgid "Please copy the folder"
-msgstr "Proszę skopiować folder"
-
 msgid "Please do not change any values unless you know what you are doing!"
 msgstr "Nie zmieniaj żadnych wartości (chyba, że wiesz co robisz...)!"
-
-msgid "Please enter a folder that contains some packages."
-msgstr "Proszę wejść do folderu zawierającego kilka pakietów."
 
 msgid "Please enter a name for the new bouquet"
 msgstr "Wpisz nazwę dla nowego bukietu"
@@ -4517,12 +4071,6 @@ msgstr "Wybierz subserwis do nagrania..."
 
 msgid "Please select a subservice..."
 msgstr "Wybierz subserwis..."
-
-msgid "Please select device to use as swapfile location"
-msgstr "Wybierz urządzenie, które będzie używane jako lokalizacja pliku wymiany"
-
-msgid "Please select the file to restore ?"
-msgstr "Proszę wybrać plik do przywrócenia?"
 
 msgid "Please select medium to be scanned"
 msgstr "Wybierz nośnik do przeszukania"
@@ -4594,23 +4142,14 @@ msgstr "Czekaj (pobieranie listy kanałów)"
 msgid "Please wait (updating packages)"
 msgstr "Czekaj (aktualizacja pakietów)"
 
-msgid "Please wait while gathers information..."
-msgstr "Proszę czekać, trwa zbieranie informacji..."
-
 msgid "Please wait while plugins restore completes..."
 msgstr "Proszę poczekać na zakończenie przywracania wtyczek..."
-
-msgid "Please wait while restore prepares"
-msgstr "Poczekaj na przygotowanie przywracania"
 
 msgid "Please wait while settings restore completes..."
 msgstr "Poczekaj na zakończenie przywracania ustawień..."
 
 msgid "Please wait while starting\n"
 msgstr "Proszę czekać podczas uruchamiania\n"
-
-msgid "Please wait while stopping\n"
-msgstr "Proszę czekać podczas zatrzymywania\n"
 
 msgid "Please wait while we configure your network..."
 msgstr "Czekaj, trwa konfuguracja sieci..."
@@ -4635,13 +4174,6 @@ msgstr "Przeglądarka wtyczek"
 
 msgid "Plugin browser"
 msgstr "Przeglądarka wtyczek"
-
-msgid ""
-"Plugin Listing failed - e. g. wrong backup destination or no space left on "
-"backup device"
-msgstr ""
-"Lista wtyczek nie powiodła się - np. G. nieprawidłowe miejsce docelowe kopii zapasowej lub brak wolnego miejsca "
-"urządzenie zapasowe"
 
 msgid "Plugins"
 msgstr "Wtyczki"
@@ -4766,11 +4298,11 @@ msgstr "Tuner DVB-T preferowany dla nagrywania"
 msgid "Preferred tuner for recordings"
 msgstr "Tuner preferowany dla nagrywania"
 
-msgid "Preparing... Please wait"
-msgstr "Przygotowywanie... Prosze czekać"
-
 msgid "Preparing extra plugins..."
 msgstr "Przygotowywanie dodatkowych wtyczek..."
+
+msgid "Preparing... Please wait"
+msgstr "Przygotowywanie... Prosze czekać"
 
 msgid "Press '0' to toggle PiP mode"
 msgstr "Wciśnij '0' aby przełączać tryby PiP"
@@ -4896,9 +4428,6 @@ msgstr "Pytanie"
 msgid "Quick"
 msgstr "Szybko"
 
-msgid "QuickEPG mode"
-msgstr "Tryb QuickEPG"
-
 msgid "Quick Option settings"
 msgstr "Ustawienia szybkiej opcji"
 
@@ -4908,8 +4437,17 @@ msgstr "Opcje Przycisków Pilota"
 msgid "Quick zap"
 msgstr "Szybkie przełączanie"
 
+msgid "QuickEPG mode"
+msgstr "Tryb QuickEPG"
+
 msgid "Quit Movie Player with EXIT button"
 msgstr "Wyjdź z programu Movie Player za pomocą przycisku EXIT"
+
+msgid "REC Symbol in Standby"
+msgstr "Symbol REC w trybie gotowości"
+
+msgid "REC Symbol in use"
+msgstr "Symbol REC w użyciu"
 
 msgid "Random"
 msgstr "Losowo"
@@ -4919,6 +4457,9 @@ msgstr "Ograniczenie nadawcy - %d"
 
 msgid "Rating undefined"
 msgstr "Ograniczenie niezdefiniowane"
+
+msgid "Reader:"
+msgstr "Czytnik:"
 
 msgid "Really close without saving settings?"
 msgstr "Wyjść bez zapisywania ustawień?"
@@ -4938,20 +4479,11 @@ msgstr "Wyłączyć teraz?"
 msgid "Really store at index %2d for current position?"
 msgstr "Przechowywać pod indeksem %2d dla aktualnej pozycji?"
 
-msgid "Reboot Enigma2"
-msgstr "Restart Gui"
-
 msgid "Reboot"
 msgstr "Restart Odbiornika"
 
 msgid "Rebooting..."
 msgstr "Ponowne uruchamianie..."
-
-msgid "REC Symbol in Standby"
-msgstr "Symbol REC w trybie gotowości"
-
-msgid "REC Symbol in use"
-msgstr "Symbol REC w użyciu"
 
 msgid "Record"
 msgstr "Nagrania"
@@ -4977,17 +4509,11 @@ msgstr "Nagrywanie(a) jest w toku lub rozpocznie się za kilka sekund!"
 msgid "Recordings"
 msgstr "Nagrania"
 
-msgid "Recordings - convert IPTV servicetypes to 1"
-msgstr "Nagrania - konwertuj typy usług IPTV na 1"
-
 msgid "Recordings always have priority"
 msgstr "Nagrywanie zawsze ma priorytet"
 
 msgid "Red"
 msgstr "Czerwony"
-
-msgid "Reader:"
-msgstr "Czytnik:"
 
 msgid "Red colored"
 msgstr "Czerwona czcionka"
@@ -5028,14 +4554,14 @@ msgstr "Pamiętaj PIN kanału"
 msgid "Reminder, you have chosen to save timeshift file."
 msgstr "Pamietaj, wybrałeś zapisywanie pliku timeshift."
 
-msgid "Remote Control Selection"
-msgstr "Wybór pilota"
-
 msgid "Remote control type"
 msgstr "Typ pilota"
 
 msgid "Remove"
 msgstr "Usuń"
+
+msgid "Remove Confirmation"
+msgstr "Usuń potwierdzenie"
 
 msgid "Remove a mark"
 msgstr "Usuń znacznik"
@@ -5055,9 +4581,6 @@ msgstr "Usuń zakładkę"
 msgid "Remove bouquet from parental protection"
 msgstr "Usuń bukiet z kontroli rodzicielskiej"
 
-msgid "Remove Confirmation"
-msgstr "Usuń potwierdzenie"
-
 msgid "Remove cable services"
 msgstr "Usuń kanały tv kablowej"
 
@@ -5066,9 +4589,6 @@ msgstr "Usuń aktualnie wybrany tytuł"
 
 msgid "Remove entry"
 msgstr "Usuń"
-
-msgid "Remove finished timers sfter (days)"
-msgstr "Usuń gotowe liczniki czasu później (dni)"
 
 msgid "Remove from parental protection"
 msgstr "Usuń z kontroli rodzicielskiej"
@@ -5150,18 +4670,6 @@ msgstr "Wymagany typ nośnika:"
 msgid "Reserved"
 msgstr "Zarezerwowany"
 
-msgid "Restart %s %s."
-msgstr "Uruchom ponownie %s %s."
-
-msgid "Restart Enigma2."
-msgstr "Uruchom ponownie Enigmę2."
-
-msgid "Restore Confirmation"
-msgstr "Potwierdzenie przywrócenia"
-
-msgid "Restore Wizard"
-msgstr "Kreator przywracania"
-
 msgid "Reset"
 msgstr "Resetuj"
 
@@ -5189,6 +4697,9 @@ msgstr "Rozdzielczość"
 msgid "Restart"
 msgstr "Restart GUI"
 
+msgid "Restart %s %s."
+msgstr "Uruchom ponownie %s %s."
+
 msgid "Restart GUI now?"
 msgstr "Zrestartować GUI teraz?"
 
@@ -5204,6 +4715,18 @@ msgstr "Powtórz test"
 msgid "Restart your network connection and interfaces.\n"
 msgstr "Restart adaptera i połączenia sieciowego.\n"
 
+msgid "Restore"
+msgstr "Przywróć"
+
+msgid "Restore Confirmation"
+msgstr "Potwierdzenie przywrócenia"
+
+msgid "Restore defaults"
+msgstr "Przywróć domyslne"
+
+msgid "Restore deleted user bouquets"
+msgstr "Przywróć usunięte bukiety"
+
 msgid "Restoring backup..."
 msgstr "Przywracam kopię zapasową..."
 
@@ -5212,15 +4735,6 @@ msgstr "Przywracanie wtyczek może zająć dużo czasu..."
 
 msgid "Restoring plugins..."
 msgstr "Przywracanie wtyczek..."
-
-msgid "Restore"
-msgstr "Przywróć"
-
-msgid "Restore defaults"
-msgstr "Przywróć domyslne"
-
-msgid "Restore deleted user bouquets"
-msgstr "Przywróć usunięte bukiety"
 
 msgid "Resume from last position"
 msgstr "Wznów od ostatniego miejsca"
@@ -5252,11 +4766,11 @@ msgstr "Poprawiaj rozłożenie napisów"
 msgid "Right"
 msgstr "Prawo"
 
-msgid "Right long"
-msgstr "Prawo długi"
-
 msgid "Right from servicename"
 msgstr "Na prawo od nazwy kanału"
+
+msgid "Right long"
+msgstr "Prawo długi"
 
 msgid "Romania"
 msgstr "Rumunia"
@@ -5290,9 +4804,6 @@ msgstr "Zoptymalizowany zakres wyszukiwania SCPC"
 
 msgid "SINGLE LAYER DVD"
 msgstr "Jednowarstwowe DVD"
-
-msgid "SOFTWARE UPDATE SETTINGS"
-msgstr "USTAWIENIA AKTUALIZACJI OPROGRAMOWANIA"
 
 msgid "SRT file"
 msgstr "Plik SRT"
@@ -5431,12 +4942,6 @@ msgstr[0] "Skanowanie zakończone, znaleziono %d kanał"
 msgstr[1] "Skanowanie zakończone, znaleziono %d kanały"
 msgstr[2] "Skanowanie zakończone, znaleziono %d kanałów"
 
-msgid "Scrolling delay (software render)"
-msgstr "Opóźnienie przewijania (renderowanie programowe)"
-
-msgid "Scrolling Speed (software render)"
-msgstr "Szybkość przewijania (renderowanie programowe)"
-
 msgid "Scanning..."
 msgstr "Skanowanie..."
 
@@ -5444,14 +4949,11 @@ msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Domyślne skanuje lamedbs wg satelit z podłączonym pozycjonerem"
 
-msgid "Schedule Backups"
-msgstr "Zaplanuj tworzenie kopii zapasowych"
+msgid "Scrolling Speed (software render)"
+msgstr "Szybkość przewijania (renderowanie programowe)"
 
-msgid "Script Runner"
-msgstr "Biegacz skryptów"
-
-msgid "Script Runner Setup"
-msgstr "Konfiguracja skryptu uruchamiającego"
+msgid "Scrolling delay (software render)"
+msgstr "Opóźnienie przewijania (renderowanie programowe)"
 
 msgid "Search"
 msgstr "Szukaj"
@@ -5531,18 +5033,6 @@ msgstr "Wybierz 'Tak', jeśli chcesz skonfigurować ten tuner dla DVB-S"
 msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
 msgstr "Wybierz 'Tak', jeśli chcesz skonfigurować ten tuner dla DVB-T"
 
-msgid "Select a backup to Restore:"
-msgstr "Wybierz kopię zapasową do przywrócenia:"
-
-msgid "Select a package to install:"
-msgstr "Wybierz pakiet do zainstalowania:"
-
-msgid "Select an image to Download:"
-msgstr "Wybierz obraz do pobrania:"
-
-msgid "Select an image to restore:"
-msgstr "Wybierz obraz do przywrócenia:"
-
 msgid ""
 "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec "
 "sheet."
@@ -5556,12 +5046,6 @@ msgid ""
 msgstr ""
 "Wybierz 'Włączony' jeżeli ten tuner ma podłączony kabel sygnałowy, w innym "
 "przypadku wybierz 'Nic nie podłączono'."
-
-msgid "Select extra packages folder"
-msgstr "Wybierz folder dodatkowych pakietów"
-
-msgid "Select folder that contains plugins"
-msgstr "Wybierz folder zawierający wtyczki"
 
 msgid ""
 "Select 'polarisation' if using a 'universal' LNB, otherwise consult your LNB "
@@ -5578,12 +5062,6 @@ msgstr ""
 "Wybierz 'Nadawcy' aby skanować z predefiniowanej listy multipleksów "
 "kablowych. Wybierz 'bands' aby skanować tylko pewną część zakresu. Wybierz "
 "'steps' aby skanować krokowo dane pasmo częstotliwości."
-
-msgid "Select the Swap File Size:"
-msgstr "Wybierz rozmiar pliku wymiany:"
-
-msgid "Select:"
-msgstr "Wybierać:"
 
 msgid ""
 "Select 'yes' if this tuner is connected to the SCR device through another "
@@ -5622,6 +5100,9 @@ msgid ""
 msgstr ""
 "Wybierz Fast DiSEqC jeśli twój system antenowy wspiera tę funkcję, jeśli nie "
 "jesteś pewien wybierz 'Nie'."
+
+msgid "Select a package to install:"
+msgstr "Wybierz pakiet do zainstalowania:"
 
 msgid "Select a wireless network"
 msgstr "Wybierz sieć bezprzewodową"
@@ -5696,6 +5177,9 @@ msgstr "Sposób sortowania:"
 msgid "Select target folder"
 msgstr "Wybierz folder docelowy"
 
+msgid "Select the Swap File Size:"
+msgstr "Wybierz rozmiar pliku wymiany:"
+
 msgid ""
 "Select the User Band channel to be assigned to this tuner. This is an index "
 "into the table of frequencies the SCR switch or SCR LNB uses to pass the "
@@ -5751,8 +5235,8 @@ msgid "Select the movie path"
 msgstr "Wybierz ścieżkę do filmu"
 
 msgid ""
-"Select the protocol used by your SCR device. Choices are 'SCR "
-"Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
+"Select the protocol used by your SCR device. Choices are 'SCR Unicable' "
+"(Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr ""
 "Wybierz typ twojego urządzenia unicable. Do wyboru masz 'SCR Unicable' (typ "
 "Unicable) lub 'SCR JESS' (JESS, znany także jako Unicable II)."
@@ -5878,9 +5362,6 @@ msgid ""
 msgstr ""
 "Wybierz swojego nadawcę i region. Jeśli nie dostępne na liście, będziesz "
 "musiał wybrać jeden z pozostałych typów skanowania."
-
-msgid "Select your provider, and press OK to start the scan"
-msgstr "Wybierz nadawcę i wciśnij OK aby rozpocząć skanowanie"
 
 msgid ""
 "Select your region. If not available change 'Country' to 'all' and select "
@@ -6025,11 +5506,9 @@ msgstr ""
 msgid "Set startup service"
 msgstr "Ustaw kanał startowy"
 
-msgid "Set the interval to be checked in mins."
-msgstr "Ustaw interwał sprawdzania w minutach."
-
 msgid "Set the repeat interval of backup schedule."
-msgstr "Ustaw częstotliwość powtarzania harmonogramu tworzenia kopii zapasowych."
+msgstr ""
+"Ustaw częstotliwość powtarzania harmonogramu tworzenia kopii zapasowych."
 
 msgid "Set the time of backup to start."
 msgstr "Ustaw godzinę rozpoczęcia tworzenia kopii zapasowej."
@@ -6042,12 +5521,6 @@ msgstr "Ustawienia"
 
 msgid "Settings Backup"
 msgstr "Ustawienia Kopii Zapasowej"
-
-msgid "Setting Up..."
-msgstr "Konfigurowanie..."
-
-msgid "Setup Mounts"
-msgstr "Konfiguracja montowania"
 
 msgid "Setup"
 msgstr "Ustawienia"
@@ -6079,29 +5552,26 @@ msgstr "Pokaż"
 msgid "Show CI messages"
 msgstr "Pokazuj komunikaty CI"
 
-msgid "Show Log Manager in extensions list ?"
-msgstr "Pokaż Menedżera logów na liście rozszerzeń?"
-
-msgid "Show \"EPGImport\" in extensions"
-msgstr "Pokaż „EPGImport” w rozszerzeniach"
-
-msgid "Show \"EPGImport\" in plugins"
-msgstr "Pokaż „EPGImport” we wtyczkach"
-
 msgid "Show EIT now/next in infobar"
 msgstr "Dane EIT teraz/następny na pasku info"
 
+msgid "Show live tv when movie stopped"
+msgstr "Pokaż telewizję na żywo, gdy film się zatrzyma"
+
+msgid "Show Log Manager in extensions list ?"
+msgstr "Pokaż Menedżera logów na liście rozszerzeń?"
+
 msgid "Show Media playback Remaining/Elapsed as"
 msgstr "Pokaż pozostałe/ukończone odtwarzanie multimediów jako"
+
+msgid "Show OScam/Ncam Info in extensions?"
+msgstr "Pokazywać informacje o OScam/Ncam w rozszerzeniach?"
 
 msgid "Show PVR status in Movie Player infobar"
 msgstr "Pokaż stan PVR na pasku infor. Odtw. filmów"
 
 msgid "Show Software Update in Extensions"
 msgstr "Pokaż aktualizację oprogramowania w rozszerzeniach"
-
-msgid "Show Time List"
-msgstr "Pokaż listę godzin"
 
 msgid "Show Time Remaining/Elapsed"
 msgstr "Pokaż pozostały czas/upłynął"
@@ -6133,11 +5603,11 @@ msgstr "Pokaż tło w trybie radia"
 msgid "Show bouquet on launch"
 msgstr "Pokaż bukiet przy uruchomieniu"
 
-msgid "Show channel numbers in channel selection"
-msgstr "Numery kanałow w liście"
-
 msgid "Show channel number in infobar"
 msgstr "Pokaż numer kanału na pasku informacyjnym"
+
+msgid "Show channel numbers in channel selection"
+msgstr "Numery kanałow w liście"
 
 msgid "Show columns"
 msgstr "Kolumny w liście wyboru kanałów"
@@ -6178,9 +5648,6 @@ msgstr "Wyświetl pomoc"
 msgid "Show icon for new/unseen items"
 msgstr "Ikony dla nowych/nieoglądanych filmów"
 
-msgid "Show in extensions list ?"
-msgstr "Pokazać na liście rozszerzeń?"
-
 msgid "Show in extensions"
 msgstr "Pokaż w rozszerzeniach"
 
@@ -6202,17 +5669,17 @@ msgstr "Pokaż pasek info przy przewijaniu przód/tył"
 msgid "Show job tasks in extensions"
 msgstr "Pokaż zadania w rozszerzeniach"
 
-msgid "Show message when recording starts"
-msgstr "Pokaż info przy rozpoczęciu nagrywania"
-
 msgid "Show menu"
 msgstr "Pokaż menu"
 
+msgid "Show message when recording starts"
+msgstr "Pokaż info przy rozpoczęciu nagrywania"
+
+msgid "Show movie lengths in movie list"
+msgstr "Pokaż długość filmu na liście filmów"
+
 msgid "Show movies"
 msgstr "Wyświetl listę nagrań"
-
-msgid "Show OScam/Ncam Info in extensions?"
-msgstr "Pokazywać informacje o OScam/Ncam w rozszerzeniach?"
 
 msgid "Show picon background color"
 msgstr "Pokaż kolor tła ikony"
@@ -6244,14 +5711,14 @@ msgstr "Wygaszacz ekranu"
 msgid "Show second infobar"
 msgstr "Wyświetlanie SecondInfobar"
 
-msgid "Show setup default values"
-msgstr "Pokaż domyślne wartości konfiguracji"
-
 msgid "Show service list"
 msgstr "Wyświetl listę kanałów"
 
 msgid "Show service type icons"
 msgstr "Ikony typu kanału"
+
+msgid "Show setup default values"
+msgstr "Pokaż domyślne wartości konfiguracji"
 
 msgid "Show status icons in movie list"
 msgstr "Ikony stanu w liście filmów"
@@ -6409,18 +5876,6 @@ msgstr "Wygładzanie"
 msgid "Softcam Manager"
 msgstr "Menedżer Softcam"
 
-msgid "Softcam Manager Log"
-msgstr "Logi menedżera Softcam"
-
-msgid "Softcam Manager Setup"
-msgstr "Konfiguracja menedżera Softcam"
-
-msgid "Softcam Starting..."
-msgstr "Uruchamianie Softcam..."
-
-msgid "Softcam Stopping..."
-msgstr "Zatrzymywanie Softcam..."
-
 msgid "SoftcamCheck"
 msgstr "Kontrola Softcam"
 
@@ -6444,47 +5899,8 @@ msgstr ""
 msgid "Some plugins are not available:\n"
 msgstr "Niektóre wtyczki są niedostępne:\n"
 
-msgid "Sorry Image Restore is not supported on the"
-msgstr "Niestety funkcja przywracania obrazu nie jest obsługiwana w systemie"
-
-msgid ""
-"Sorry but location does exist or not setup, please setup in Backup Manager "
-"setup menu "
-msgstr ""
-"Przepraszamy, ale lokalizacja istnieje lub nie została skonfigurowana. Skonfiguruj ją w Menedżerze kopii zapasowych "
-"menu ustawień "
-
-msgid "Sorry feeds are down for maintenance, Please try again later."
-msgstr "Przepraszamy, kanały są wyłączone z powodu prac konserwacyjnych. Spróbuj ponownie później."
-
-msgid ""
-"Sorry feeds are down for maintenance, Please try using Backup Manager to "
-"restore plugins later."
-msgstr ""
-"Przepraszamy, kanały są wyłączone z powodu prac konserwacyjnych. Spróbuj użyć Menedżera kopii zapasowych "
-"przywróć wtyczki później."
-
-msgid "Sorry you %s %s is not yet compatible."
-msgstr "Przepraszamy, %s %s nie jest jeszcze kompatybilny."
-
 msgid "Sorry, but the restore failed."
 msgstr "Przepraszamy, ale przywracanie nie powiodło się."
-
-msgid ""
-"Sorry, no physical devices that supports SWAP attached. Can't create "
-"Swapfile on network or fat32 filesystems"
-msgstr ""
-"Przepraszamy, nie podłączono żadnych urządzeń fizycznych obsługujących SWAP. Nie można utworzyć "
-"Plik wymiany w sieci lub systemie plików Fat32"
-
-msgid ""
-"Sorry, not enough free ram found, and no physical devices that supports SWAP "
-"attached. Can't create Swapfile on network or fat32 filesystems, unable to "
-"make backup"
-msgstr ""
-"Przepraszamy, nie znaleziono wystarczającej ilości wolnej pamięci RAM i brak urządzeń fizycznych obsługujących SWAP "
-"przyłączony. Nie można utworzyć pliku wymiany w sieci lub systemie plików Fat32. Nie jest to możliwe "
-"zrobić kopię zapasową"
 
 msgid "Sorry, this tuner is in use."
 msgstr "Niestety, ten tuner jest w użyciu."
@@ -6495,17 +5911,17 @@ msgstr "Sortowanie"
 msgid "Sort by"
 msgstr "Sortuj wg"
 
+msgid "Sort by default"
+msgstr "Sortuj domyślnie"
+
+msgid "Sort list by"
+msgstr "Sortuj listę według"
+
 msgid "Sort list to default and exit?"
 msgstr "Posortować listę domyślnie i wyjść?"
 
 msgid "Sort list:"
 msgstr "Sortuj listę:"
-
-msgid "Sort list by"
-msgstr "Sortuj listę według"
-
-msgid "Sort menu numbers"
-msgstr "Sortuj numery menu"
 
 msgid "Sort order for help screen"
 msgstr "Kolejność sortowania ekranu pomocy"
@@ -6516,8 +5932,8 @@ msgstr "Sortuj alfabetycznie przeglądarkę wtyczek"
 msgid "Sort plugins list to default?"
 msgstr "Posortować wtyczki domyślnie i wyjść?"
 
-msgid "Sort setting screen alphabetically"
-msgstr "Sortuj ekran ustawień alfabetycznie"
+msgid "Sort Trash by deletion time"
+msgstr "Sortuj Kosz według czasu usunięcia"
 
 msgid "Sound"
 msgstr "Dźwięk"
@@ -6582,9 +5998,6 @@ msgstr "Dioda LED w trybie czuwania"
 msgid "Start"
 msgstr "Start"
 
-msgid "Starting..."
-msgstr "Startuje..."
-
 msgid "Start from the beginning"
 msgstr "Rozpocznij od początku"
 
@@ -6611,6 +6024,9 @@ msgstr "Rozpocznij timeshift"
 
 msgid "Starting on"
 msgstr "Rozpocznij od"
+
+msgid "Starting..."
+msgstr "Startuje..."
 
 msgid "Status:"
 msgstr "Status:"
@@ -6678,6 +6094,12 @@ msgstr "Zatrzymaj podgląd kanału przy powrocie do listy filmów"
 msgid "Stop test"
 msgstr "Zakończ test"
 
+msgid "Stop this recording"
+msgstr "Zatrzymaj to nagrywanie"
+
+msgid "Stop this recording and delete it"
+msgstr "Zatrzymaj to nagrywanie i usuń je"
+
 msgid "Stop testing plane after # failed transponders"
 msgstr "Zatrzymaj testowanie poziomu po # nieudanych transponderach"
 
@@ -6714,14 +6136,14 @@ msgstr "Pozycja zapamiętana"
 msgid "Stream"
 msgstr "Strumień"
 
+msgid "Stream Relay Settings"
+msgstr "Ustawienia przekaźnika strumieniowego"
+
 msgid "Stream Relay delay"
 msgstr "Opóźnienie przekaźnika strumienia"
 
 msgid "Stream Relay port"
 msgstr "Port przekaźnika strumieniowego"
-
-msgid "Stream Relay Settings"
-msgstr "Ustawienia przekaźnika strumieniowego"
 
 msgid "Stream Relay url"
 msgstr "Adres URL przekaźnika strumieniowego"
@@ -6802,18 +6224,6 @@ msgstr "Zamień PiP z ekranem głównym"
 msgid "Swap SNR in '%' with SNR in 'db'"
 msgstr "Zamień SNR w „%” z SNR w „db”"
 
-msgid "Swap File not found. You have to create the file before to activate."
-msgstr "Nie znaleziono pliku wymiany. Aby aktywować, musisz najpierw utworzyć plik."
-
-msgid "Swap Manager"
-msgstr "Menedżer swap-u"
-
-msgid "Swap Place:"
-msgstr "Miejsce Swap-u:"
-
-msgid "Swap Size:"
-msgstr "Rozmiar Swap-u:"
-
 msgid "Swap services"
 msgstr "Zamień kanały"
 
@@ -6883,6 +6293,9 @@ msgstr "Plik TS jest za duży dla ISO9660 level 1!"
 msgid "TUNING"
 msgstr "DOSTRAJANIE"
 
+msgid "TV button mode"
+msgstr "Tryb przycisku TV"
+
 msgid "TV physical address report"
 msgstr "Raportowanie fizycznego adresu TV"
 
@@ -6895,20 +6308,17 @@ msgstr "Lista zawartości dla kolekcji"
 msgid "Tags"
 msgstr "Tagi"
 
-msgid "Task warning on shutdown"
-msgstr "Ostrzeżenie o zadaniu przy zamykaniu"
-
 msgid "Tajikistan"
 msgstr "Tadżykistan"
 
 msgid "Tanzania, United Republic of"
 msgstr "Tanzania"
 
+msgid "Task warning on shutdown"
+msgstr "Ostrzeżenie o zadaniu przy zamykaniu"
+
 msgid "Teletext subtitle color"
 msgstr "Kolor napisów teletekst"
-
-msgid "Temp Folder"
-msgstr "Folder tymczasowy"
 
 msgid "Terrestrial"
 msgstr "Naziemna"
@@ -6953,24 +6363,11 @@ msgstr "Kod PIN został zapisany pomyślnie."
 msgid "The PIN codes you entered are different."
 msgstr "Kody PIN które wpisałeś różnią się."
 
-msgid "The backup location does not have enough freespace."
-msgstr "W lokalizacji kopii zapasowej nie ma wystarczającej ilości wolnego miejsca."
-
-msgid "The chosen location does not exist, using /media/hdd"
-msgstr "Wybrana lokalizacja nie istnieje, użyj /media/hdd"
-
 msgid "The command to wake from standby will be sent multiple times."
 msgstr "Komenda wybudzenia ze stanu czuwania będzie wysyłana wielokrotnie."
 
 msgid "The following files were found..."
 msgstr "Następujące pliki zostały znalezione..."
-
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Kreator sieci nie jest zainstalowany!\n"
-"Zainstaluj go najpierw."
 
 msgid "The path %s already exists."
 msgstr "Ścieżka %s już istnieje."
@@ -6995,9 +6392,6 @@ msgstr ""
 "Wtyczka sieci bezprzewodowej nie jest zainstalowana!\n"
 "Zainstaluj ją."
 
-msgid "The wizard is finished now, and will reboot"
-msgstr "Kreator zakończył pracę i uruchomi się ponownie"
-
 msgid "The wizard is finished now."
 msgstr "Kreator jest już gotowy."
 
@@ -7009,9 +6403,6 @@ msgstr "Brak zapisanych list odtwarzania do załadowania!"
 
 msgid "There is no signal to lock on !"
 msgstr "Brak sygnału do złapania!"
-
-msgid "This Device is already mounted as HDD."
-msgstr "To urządzenie jest już zamontowane jako dysk twardy."
 
 msgid ""
 "This DVD RW medium is already formatted - reformatting will erase all "
@@ -7171,9 +6562,6 @@ msgstr "Czwartek"
 msgid "Time"
 msgstr "Czas"
 
-msgid "Time of Backup to start"
-msgstr "Czas rozpoczęcia tworzenia kopii zapasowej"
-
 msgid "Time scale"
 msgstr "Przedział czasowy"
 
@@ -7202,20 +6590,17 @@ msgstr "Typ timera"
 msgid "Timers"
 msgstr "Timery"
 
-msgid "Timeshift - save action on zap"
-msgstr "Timeshift - zapisz akcję na zap"
-
 msgid "Timeshift is running. Select an action.\n"
 msgstr "Uruchomiony timeshift. Wybierz działanie.\n"
 
 msgid "Timeshift location"
 msgstr "Lokalizacja timeshift"
 
-msgid "Timeshift save recording (stop after current event)"
-msgstr "Nagrywanie z funkcją Timeshift (zatrzymanie po bieżącym zdarzeniu)"
-
 msgid "Timeshift save recording (Select event)"
 msgstr "Nagrywanie z funkcją Timeshift (Wybierz wydarzenie)"
+
+msgid "Timeshift save recording (stop after current event)"
+msgstr "Nagrywanie z funkcją Timeshift (zatrzymanie po bieżącym zdarzeniu)"
 
 msgid "Timor-Leste"
 msgstr "Timor Wschodni"
@@ -7236,18 +6621,12 @@ msgstr ""
 "Aby zastosować wybraną skórkę '%s' należy zrestartować GUI. Czy wykonać "
 "restart interfejsu użytkownika teraz?"
 
-msgid "To audio selection"
-msgstr "Przejdź do wyboru ścieżki audio"
-
 msgid ""
 "To save and apply the selected '%s' skin the GUI needs to restart. Would you "
 "like to save the selection and restart the GUI now?"
 msgstr ""
 "Aby zapisać i zastosować wybraną skórkę '%s' należy zrestartować GUI. Czy "
 "zapisać wybór i wykonać restart interfejsu użytkownika teraz?"
-
-msgid "To subtitle selection"
-msgstr "Przejdź do wyboru napisów"
 
 msgid "Today"
 msgstr "Dzisiaj"
@@ -7275,11 +6654,11 @@ msgstr "Transkodowanie: "
 msgid "Translations"
 msgstr "Tłumaczenie"
 
-msgid "Transparent"
-msgstr "Przezroczysty"
-
 msgid "Transmission mode"
 msgstr "Tryb transmisji"
+
+msgid "Transparent"
+msgstr "Przezroczysty"
 
 msgid "Transponder Time"
 msgstr "Czas z transpondera"
@@ -7356,9 +6735,6 @@ msgstr "Włącz diodę LED zasilania."
 msgid "Turning step size"
 msgstr "Rozmiar kroku obrotu"
 
-msgid "TV button mode"
-msgstr "Tryb przycisku TV"
-
 msgid "Two"
 msgstr "Dwa"
 
@@ -7371,41 +6747,17 @@ msgstr "Dwie linie Alt"
 msgid "Type"
 msgstr "Typ"
 
-msgid "Type: "
-msgstr "Typ: "
-
 msgid "Type of LNB/device"
 msgstr "Typ LNB/urządzenia"
 
 msgid "Type of scan"
 msgstr "Typ skanowania"
 
+msgid "Type: "
+msgstr "Typ: "
+
 msgid "UNKNOWN"
 msgstr "NIEZNANY"
-
-msgid "USB: "
-msgstr "USB: "
-
-msgid "Card reader 1"
-msgstr "Czytnik kart 1"
-
-msgid "Card reader 2"
-msgstr "Czytnik kart 2"
-
-msgid "USB reader 1"
-msgstr "Czytnik USB 1"
-
-msgid "USB reader 2"
-msgstr "Czytnik USB 2"
-
-msgid "USB reader 3"
-msgstr "Czytnik USB 3"
-
-msgid "USB reader 4"
-msgstr "Czytnik USB 4"
-
-msgid "USB reader 5"
-msgstr "Czytnik USB 5"
 
 msgid ""
 "USALS automatically moves a motorised dish to the correct satellite based on "
@@ -7418,6 +6770,9 @@ msgstr ""
 
 msgid "USALS calibration"
 msgstr "Kalibracja USALS"
+
+msgid "USB: "
+msgstr "USB: "
 
 msgid "Ukraine"
 msgstr "Ukraina"
@@ -7488,9 +6843,6 @@ msgstr[0] "Aktualizacja zakończona, zainstalowano %d pakiet."
 msgstr[1] "Aktualizacja zakończona, zainstalowano %d pakiety."
 msgstr[2] "Aktualizacja zakończona, zainstalowano %d pakietów."
 
-msgid "Updating mount locations."
-msgstr "Aktualizowanie lokalizacji montowań."
-
 msgid "Upgrade and reboot system"
 msgstr "Zaktualizuj i zrestartuj system"
 
@@ -7539,6 +6891,9 @@ msgstr "Użyj informacji EPG Virgin gdy dostępne."
 msgid "Use a gateway"
 msgstr "Użyj bramy"
 
+msgid "Use adaptive date display"
+msgstr "Użyj adaptacyjnego wyświetlania daty"
+
 msgid "Use as HDD"
 msgstr "Użyj jako dysku twardego"
 
@@ -7575,9 +6930,6 @@ msgstr "Użyj oryginalnej pozycji jak w teletekst"
 msgid "Use power measurement"
 msgstr "Użyj pomiaru mocy"
 
-msgid "Used separate Picon pack for Front Display"
-msgstr "Używany oddzielny pakiet Picon do wyświetlacza przedniego"
-
 msgid "Use skin default"
 msgstr "Użyj domyślnej skórki"
 
@@ -7600,6 +6952,9 @@ msgstr "Użyć tych ustawień korekcji obrazu?"
 
 msgid "Use timeshift seekbar while timeshifting?"
 msgstr "Używać paska wyszukiwania Timeshift podczas przesuwania w czasie?"
+
+msgid "Use trash can in movie list"
+msgstr "Użyj kosza na śmieci na liście filmów"
 
 msgid "Used service scan type"
 msgstr "Używany typ skanowania kanałów"
@@ -7706,27 +7061,6 @@ msgstr "Tekst wirtualnej klawiatury:"
 msgid "Virtual keyboard"
 msgstr "Wirtualna klawiatura"
 
-msgid "ViX"
-msgstr "ViX"
-
-msgid "ViX Backup Manager"
-msgstr "Menedżer kopii zapasowych ViX"
-
-msgid "ViX Image Manager"
-msgstr "Menedżer obrazu ViX"
-
-msgid "ViX Mount Manager"
-msgstr "Menedżer montowania ViX"
-
-msgid "ViX Script Runner"
-msgstr "Narzędzie do uruchamiania skryptów ViX"
-
-msgid "ViX Swap Manager"
-msgstr "Menedżer Swap ViX"
-
-msgid "View Progress"
-msgstr "Zobacz postęp"
-
 msgid "Voltage mode"
 msgstr "Tryb napięcia"
 
@@ -7743,6 +7077,9 @@ msgstr "Połączenie WLAN"
 
 msgid "WSS on 4:3"
 msgstr "WSS na 4:3"
+
+msgid "Wait please while scanning..."
+msgstr "Poczekaj, trwa skanowanie..."
 
 msgid "Waiting"
 msgstr "Oczekiwanie"
@@ -7761,25 +7098,6 @@ msgstr "Sygnał wybudzenia z TV"
 
 msgid "Wallis and Futuna"
 msgstr "Wallis i Futuna"
-
-msgid "Wait please while creating swapfile..."
-msgstr "Poczekaj, proszę podczas tworzenia pliku wymiany..."
-
-msgid ""
-"Wait please while scanning\n"
-"for softcam's..."
-msgstr ""
-"Poczekaj podczas skanowania\n"
-"dla softcamów..."
-
-msgid "Wait please while scanning for devices..."
-msgstr "Poczekaj, trwa skanowanie w poszukiwaniu urządzeń..."
-
-msgid "Wait please while scanning your %s %s devices..."
-msgstr "Poczekaj, podczas skanowania urządzeń %s %s..."
-
-msgid "Wait please while scanning..."
-msgstr "Poczekaj, trwa skanowanie..."
 
 msgid "Warning"
 msgstr "Ostrzeżenie"
@@ -7845,8 +7163,8 @@ msgstr ""
 "Witamy w kreatorze przywracania.\n"
 "\n"
 "Wykryto kopię zapasową.\n"
-"Możesz użyć tego kreatora, aby przywrócić ustawienia i wszelkie dodatkowe wtyczki "
-"zostały zainstalowane podczas tworzenia kopii zapasowej.\n"
+"Możesz użyć tego kreatora, aby przywrócić ustawienia i wszelkie dodatkowe "
+"wtyczki zostały zainstalowane podczas tworzenia kopii zapasowej.\n"
 
 msgid "West"
 msgstr "Zachód"
@@ -7938,13 +7256,6 @@ msgid ""
 "position."
 msgstr ""
 "Gdy włączone, graficzne napisy DVB będą wyświetlane w oryginalnym położeniu."
-
-msgid ""
-"When enabled, graphical DVB subtitles will be displayed in yellow, instead "
-"of the original color."
-msgstr ""
-"Gdy włączone, graficzne napisy DVB będą wyświetlane na żółto zamiast "
-"oryginalnego koloru."
 
 msgid ""
 "When enabled, measure power consumption to detect when the rotor stops "
@@ -8109,11 +7420,14 @@ msgstr "Zapisz do /tmp/positionersetup.log"
 msgid "YES"
 msgstr "Tak"
 
+msgid "YES, to restore plugins"
+msgstr "TAK, aby przywrócić wtyczki"
+
+msgid "YES, to restore settings"
+msgstr "TAK, aby przywrócić ustawienia"
+
 msgid "Year"
 msgstr "Rok"
-
-msgid "Yellow DVB subtitles"
-msgstr "Żółte napisy DVB"
 
 msgid "Yellow"
 msgstr "Żółty"
@@ -8123,12 +7437,6 @@ msgstr "Żółty długi"
 
 msgid "Yemen"
 msgstr "Jemen"
-
-msgid "YES, to restore plugins"
-msgstr "TAK, aby przywrócić wtyczki"
-
-msgid "YES, to restore settings"
-msgstr "TAK, aby przywrócić ustawienia"
 
 msgid "Yes"
 msgstr "Tak"
@@ -8160,61 +7468,11 @@ msgstr "Tego nie można usunąć!"
 msgid "You didn't select a channel to record from."
 msgstr "Nie wybrałeś kanału z którego nagrywać."
 
-msgid "You have no backup to delete."
-msgstr "Nie masz kopii zapasowej do usunięcia."
-
-msgid "You have no backups to restore."
-msgstr "Nie masz kopii zapasowych do przywrócenia."
-
-msgid "You have no image to delete."
-msgstr "Nie masz obrazu do usunięcia."
-
-msgid "You have no image to download."
-msgstr "Nie masz obrazu do pobrania."
-
-msgid "You have no image to restore."
-msgstr "Nie masz obrazu do przywrócenia."
-
-msgid "You have to create a Swap File before to activate the autostart."
-msgstr "Aby aktywować autostart, musisz najpierw utworzyć plik wymiany."
-
 msgid "You must switch to the service %s (%s - '%s')!\n"
 msgstr "Musisz przełączyć na kanał %s (%s - '%s')!\n"
 
 msgid "You seem to be in timeshift!"
 msgstr "Wygląda na to, że jesteś w trybie timeshift!"
-
-msgid ""
-"Your %s %s is about to run a backup of your settings and detect your "
-"plugins,\n"
-"Do you want to allow this?"
-msgstr ""
-"Twój %s %s zaraz utworzy kopię zapasową twoich ustawień i wykryje "
-"wtyczki,\n"
-"Czy chcesz na to pozwolić?"
-
-msgid ""
-"Your %s %s is about to run a full image backup, this can take about 6 "
-"minutes to complete,\n"
-"do you want to allow this?"
-msgstr ""
-"Twój %s %s zaraz wykona kopię zapasową pełnego obrazu, może to potrwać około 6 "
-"minut do zakończenia,\n"
-"czy chcesz na to pozwolić?"
-
-msgid ""
-"Your %s %s is not connected to the internet, Please try using Backup Manager "
-"to restore plugins later."
-msgstr ""
-"Twój %s %s nie jest podłączony do Internetu. Spróbuj użyć Menedżera kopii zapasowych "
-"aby później przywrócić wtyczki."
-
-msgid ""
-"Your %s %s is not connected to the internet, please check your network "
-"settings and try again."
-msgstr ""
-"Twój %s %s nie jest podłączony do Internetu. Sprawdź swoją sieć "
-"ustawienia i spróbuj ponownie."
 
 msgid ""
 "Your collection exceeds the size of a single layer medium, you will need a "
@@ -8341,6 +7599,12 @@ msgstr "reklama/zakupy"
 
 msgid "all tuners"
 msgstr "wszystkie tunery"
+
+msgid "alphabetic then newest first"
+msgstr "alfabetycznie, następnie najnowsze na początku"
+
+msgid "alphabetic then oldest first"
+msgstr "alfabetycznie, następnie najstarsze na początku"
 
 msgid "alphabetical"
 msgstr "alfabetycznie"
@@ -8492,9 +7756,6 @@ msgstr "zrobione!"
 msgid "east"
 msgstr "wschód"
 
-msgid "echo 'Downloading Image.'"
-msgstr "echo 'Pobieranie obrazu.'"
-
 msgid "economics/social advisory"
 msgstr "porady ekonomiczne/społeczne"
 
@@ -8570,6 +7831,9 @@ msgstr "fittness i zdrowie"
 msgid "flat alphabetic"
 msgstr "alfabetycznie (+katalogi)"
 
+msgid "flat reverse alphabetic"
+msgstr "płaski odwrócony alfabetyczny"
+
 msgid "folk/traditional music"
 msgstr "folk/muzyka tradycyjna"
 
@@ -8627,9 +7891,6 @@ msgstr "zainicjuj moduł"
 msgid "insert mark here"
 msgstr "wstaw znacznik tutaj"
 
-msgid "invalid type"
-msgstr "nieprawidłowy typ"
-
 msgid "jazz"
 msgstr "jazz"
 
@@ -8668,6 +7929,9 @@ msgstr "zablokowany"
 
 msgid "long"
 msgstr "długo"
+
+msgid "longest first"
+msgstr "najdłuższy pierwszy"
 
 msgid "magazines/reports/documentary"
 msgstr "reportaż/dokument/mgazyn"
@@ -8713,6 +7977,12 @@ msgstr "nigdy"
 
 msgid "new media"
 msgstr "nowe media"
+
+msgid "newest first"
+msgstr "najnowsze na początku"
+
+msgid "newest recordings first then other media by name"
+msgstr "najnowsze nagrania najpierw, a następnie inne media według nazwy"
 
 msgid "news magazine"
 msgstr "magazyn informacyjny"
@@ -8788,6 +8058,9 @@ msgstr "wyłączone lub wpa2"
 msgid "offset is"
 msgstr "offset jest"
 
+msgid "oldest first"
+msgstr "najstarsze na początku"
+
 msgid "on"
 msgstr "włączony"
 
@@ -8851,6 +8124,12 @@ msgstr "powtórzone"
 msgid "rewind to the previous chapter"
 msgstr "cofnij do poprzedniego rozdziału"
 
+msgid "reverse alphabetic then newest first"
+msgstr "odwróć alfabetycznie, a następnie najnowsze na początku"
+
+msgid "reverse alphabetic then oldest first"
+msgstr "odwróć alfabetycznie, a następnie najstarsze na początku"
+
 msgid "right"
 msgstr "prawy"
 
@@ -8884,6 +8163,9 @@ msgstr "muzyka klasyczna"
 msgid "serious/classical/religious/historical drama"
 msgstr "film klasyka/historia/religia"
 
+msgid "shortest first"
+msgstr "najkrótsza pierwsza"
+
 msgid "show DVD main menu"
 msgstr "pokaż główne menu DVD"
 
@@ -8899,9 +8181,6 @@ msgstr "rozrywka"
 msgid "shuffle"
 msgstr "wymieszaj"
 
-msgid "shut down"
-msgstr "wyłącz"
-
 msgid "simple"
 msgstr "prosty"
 
@@ -8910,9 +8189,6 @@ msgstr "skocz wstecz"
 
 msgid "skip forward"
 msgstr "skocz w przód"
-
-msgid "skip the import"
-msgstr "pomiń import"
 
 msgid "soap/melodrama/folkloric"
 msgstr "serial/melodramat"
@@ -8941,9 +8217,6 @@ msgstr "rozpocznij cięcie tutaj"
 msgid "stepsize"
 msgstr "rozmiar kroku"
 
-msgid "stereo"
-msgstr "stereo"
-
 msgid "switch to the next angle"
 msgstr "przejdź do następnego rogu"
 
@@ -8968,14 +8241,8 @@ msgstr "szablon"
 msgid "tennis/squash"
 msgstr "tennis/squash"
 
-msgid "there was a problem with this device, please reformat and try again."
-msgstr "wystąpił problem z tym urządzeniem, sformatuj go i spróbuj ponownie."
-
 msgid "this recording"
 msgstr "to nagranie"
-
-msgid "to a USB stick, place in front USB port of reciver and power on"
-msgstr "na pamięć USB, umieść ją przed portem USB odbiornika i włącz zasilanie"
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "czas odtwarzania, rozdział, audio, informacja o napisach"
